@@ -1,0 +1,74 @@
+.main-wrapper
+        .header-section
+          // START SVG
+          .bridge-svg
+           img(src='assets/img/navlogo.svg')
+          .title
+            h1 CHANVRE QUEBEC   
+            h2 La référence
+          a(href='#first')
+            p Découvrez le
+            // START SVG
+            .arrow
+              svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='21px', height='11.122px', viewbox='-0.121 -0.121 21 11.122', enable-background='new -0.121 -0.121 21 11.122', xml:space='preserve')
+                line(fill='none', stroke='#B1E95C', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', x1='0.629', y1='0.629', x2='10.251', y2='10.251')
+                line(fill='none', stroke='#B1E95C', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', x1='20.129', y1='0.629', x2='10.507', y2='10.251')
+.main-wrapper.light-blue
+    .container
+        h2.blanc Suivez-nous sur Facebook
+        p.blanc Faites partie, vous aussi, de notre communauté!
+        a.fb-messengermessageus.talk(messenger_app_id='1605996379729796', page_id='1541184722867648', color='blue', size='xlarge')
+    .container
+        .fb-like(data-href='https://www.facebook.com/chanvrequebec/', data-layout='button_count', data-action='like', data-size='large', data-show-faces='true', data-share='true')
+a(name='first')
+.main-wrapper.grey
+    .container
+        h2 Le chanvre c'est
+        p 
+          | <strong>25 000</strong> produits différents bon pour nous et notre environnement! C'est une <strong>réponse intelligente</strong> et <strong>adaptée</strong> à nos besoins modernes.
+    .promo-crossroad
+        dl.promo-crossroad__item
+            dt
+                a(href='construction')
+                    img.promo-crossroad__img(src='assets/img/constructionicon.png')
+                    p Habitation
+        dl.promo-crossroad__item
+            dt
+                a(href='construction')
+                    img.promo-crossroad__img(src='assets/img/constructionicon.png')
+                    p Textile
+        dl.promo-crossroad__item
+            dt
+                a(href='construction')
+                    img.promo-crossroad__img(src='assets/img/constructionicon.png')
+                    p Alimentation
+.main-wrapper
+    .container
+        h2 Chanvre Québec c'est
+        p 
+          | Une association à but non-lucratif fondé par de jeunes visionnaires qui veulent voir et apporter des solutions saines et durables aux problèmes d'aujourd'hui.
+        a(href='equipe')
+            button.fill-green Découvrez l'équipe
+.main-wrapper.grey
+    .container
+        h2 Notre mission; promouvoir le chanvre.
+        p 
+          | <strong>Comment allons-nous faire ?</strong> En étant une référence en matière de chanvre. Nous voulons offrir des produits sain et durable (facile avec le chanvre!) tout en étant innovateur et créatif. Pour s'y faire nous voulons oeuvrer en communauté avec les compagnies qui se battent copr et âme pour le chanvre. Nous allons les aidé à se démarquer! Image de marque, approvisionnement, formation, support technique..
+    button.btn-green Nos services
+.main-wrapper
+    .container
+        h2 Voici nos membres VIP
+    .promo-crossroad
+        dt
+            p
+                | The Beard<br>&<br>Wood Club
+        dt
+            p ArtCan
+    button.btn-blue Devenez Membre 
+    //formulaire google pour les demandes. 
+
+include ../public/_includes/_produits        
+include ../public/_includes/_slider
+include ../public/_includes/_footer
+
+

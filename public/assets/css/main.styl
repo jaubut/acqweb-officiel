@@ -1,0 +1,197 @@
+@import '_media'
+@import '_anim'
+@import '_grid'
+@import '_slider'
+@import '_item'
+@import '_button'
+@import '_produits-cards'
+
+
+#sample 
+
+
+html 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+
+*, *:before, *:after 
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+
+
+/*
+=== TYPOGRAPHY
+*/
+
+h1 
+	font-family: Porter, sans-serif;
+	color: #1E2D32;
+    font-size 4rem
+    font-weight: 400;
+
+h2 
+	font-family: "proxima-nova", Helvetica, sans-serif;
+	font-size: 2rem;
+	font-weight: 200;
+	line-height: 1.2;
+	&:noir
+        color: #1E2D32;
+    &:blanc
+        color white
+
+h3 
+	font-family: "proxima-nova", Helvetica, sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 0.6;
+	color: #FFF;
+
+p 
+	font-family: "proxima-nova", Helvetica, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 300;
+	line-height: 1.5;
+    color: #1E2D32;
+    
+.blanc
+    color white
+
+a 
+	text-decoration: none;
+    text-align center
+
+/*
+=== BODY STYLES
+*/
+
+.container 
+	margin: 0 20% 0 20%
+    padding-top 40px
+
+.infinite
+    width auto
+    height 100px
+    align-content flex-end
+    border-radius 100%
+    
+
+.header-section 
+	position inherit
+
+.bridge-svg 
+	position: relative;
+	margin: 10% auto 0;
+	width: 100px;
+	-webkit-animation: title-fall 0.75s ease;
+	-moz-animation: title-fall 0.75s ease;
+	animation: title-fall 0.75s ease;
+
+.footer-bridge 
+	position: relative;
+	width: 133px;
+	margin: 0 auto;	
+	padding: 50px 0;
+    text-align center
+
+
+.title 
+	margin-top: -30px;
+	text-align: center;
+    margin-bottom 100px
+    padding 0 5
+
+.title h1
+	-webkit-animation: title-fall 0.5s ease;
+	-moz-animation: title-fall 0.5s ease;
+	animation: title-fall 0.5s ease;
+
+.title h2 
+	margin-top: -30px;
+	text-transform: uppercase;
+	letter-spacing: 1.1rem;
+	-webkit-animation: title-rise 0.75s ease;
+	-moz-animation: title-rise 0.75s ease;
+	animation: title-rise 0.75s ease;
+
+.start-quiz 
+	text-align: center;
+	cursor: pointer;
+	min-width: 260px;
+	margin: 100px auto 0;
+	-webkit-animation: title-rise 0.9s ease;
+	-moz-animation: title-rise 0.9s ease;
+	animation: title-rise 0.9s ease;
+
+.arrow 
+	-webkit-animation: bounce 1.4s ease infinite;
+	-moz-animation: bounce 1.4s ease infinite;
+	animation: bounce 1.4s ease infinite;
+
+span 
+	display: inline-block;
+    
+.equipe
+    width 180px
+    height auto
+    border 4px solid black
+    border-radius 25px
+dt img
+    max-width 100%
+    border-radius 25px 25px 0 0
+
+footer 
+	position: relative;
+	background: #066682;
+	width: 100%;
+
+.footer-container 
+	width 90%
+	margin: 0 auto;
+	padding-bottom: 50px;
+
+footer .bridge-svg 
+	padding: 80px 0;
+
+.line 
+	position: relative;
+	background: white;
+	width: 50px;
+	height:	3px;
+
+footer ul
+footer li 
+	margin: 0;
+	padding: 0;
+    list-style-type none
+    
+
+footer li 
+	height: 30px;
+
+footer a 
+	color: #fff;
+	transition: all 0.3s ease;
+
+.footer-link,
+.arrow-right 
+	display: inline-block;
+
+.arrow-right 
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+	opacity: 0;
+	transition: all 0.3s ease;
+
+footer a:hover .arrow-right 
+	opacity: 1;
+
+.button
+    position static
+    text-align right 
+
+.fb-like
+    margin-bottom 20px

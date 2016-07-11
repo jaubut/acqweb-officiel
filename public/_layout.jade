@@ -1,0 +1,55 @@
+doctype html
+html(⚡='')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width,minimum-scale=1,initial-scale=1')
+    meta(property="og:title" content='Chanvre SA')
+    meta(property="og:type" content='chanvre.québec')
+    meta(property="og:url" content="http://www.chanvresa.com/")
+    meta(property="og:image" content="http://www.chanvresa.com/assets/img/navlogo.svg")
+    title(Chanvre SA)
+    body(topmargin="0px" leftmargin="0px" marginheight="0px" marginwidth="0px")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js")
+    script(src="//use.typekit.net/wta0uxy.js")
+    script(try{Typekit.load();}catch(e){})
+    script(async src="https://cdn.ampproject.org/v0.js")
+    script(src="https://use.fontawesome.com/7c1bfbef86.js")
+    script(src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MDc1MjE3MzQtMWI0Ni00NDE2LTgxOWUtYzhlN2ZmYTM0OTdkNjM2MDA4NDk2Njk1MzE1MDU0" id="snipcart")
+    script(src="//load.sumome.com/" data-sumo-site-id="1b5513b96e845b6743a5b85f6d35828622a66cdd25aaf811d479b07c4981027c" async="async")
+    style(amp-boilerplate='').
+      body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    noscript
+      style(amp-boilerplate='').
+        body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
+    link(href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css")
+    link(rel="stylesheet", href="assets/css/main.css")
+    link(rel='canonical', href='chanvresa.com')
+  body
+    script.
+      window.fbAsyncInit = function() {
+      FB.init({
+      appId      : '1515670032095765',
+      xfbml      : true,
+      version    : 'v2.5'
+      });
+      };
+      (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    #fb-root
+    script.
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6&appId=1515670032095765";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    != yield
+    
+    
+    include ../public/_includes/_script
