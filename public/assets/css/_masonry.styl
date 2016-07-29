@@ -1,0 +1,123 @@
+* {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+#masonry
+    margin 15px
+.wrap-ma
+    text-align center
+
+.item 
+    width 320px
+    height: auto;
+    margin 5px
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    display inline-block
+    -webkit-flex-direction column
+    -ms-flex-direction column
+    flex-direction column
+    font-size 16px
+    font-weight 400
+    min-height 200px
+    overflow hidden
+    width 330px
+    z-index 1
+    position relative
+    background #fff
+    border-radius 2px
+    box-sizing border-box
+    &:hover
+        box-shadow: 0 6px 6px 0 rgba(0,0,0,.14),0 9px 3px -6px rgba(0,0,0,.2),0 3px 15px 0 rgba(0,0,0,.12);
+@media only screen and (max-device-width: 568px) and (min-device-width: 320px) and (orientation: portrait)
+    #masonry
+        margin 5   
+    .wrap-ma
+        width 100%
+    .item 
+        width 100%
+        height auto
+        margin 0
+        margin-top 5px
+
+
+
+.item.thumbnail 
+    width:  50%;
+    height 75px
+    background: #cfcfcf
+
+
+.item.medium 
+    width:  75%;
+    height: 100px;
+    background: #A6E392
+
+
+.item.large 
+    width:  100%;
+    height: 200px;
+    background: #D092E3
+    
+.item_title
+  -webkit-align-items center
+  -ms-flex-align center
+  align-items center
+  color white
+  display block
+  display -webkit-flex
+  display -ms-flexbox
+  display flex
+  -webkit-justify-content stretch
+  -ms-flex-pack stretch
+  justify-content stretch
+  line-height normal
+  padding-top 50%
+  padding-bottom 16px
+  padding-left 16px
+  -webkit-perspective-origin 165px 56px
+  perspective-origin 165px 56px
+  -webkit-transform-origin 165px 56px
+  transform-origin 165px 56px
+  box-sizing border-box
+  background-image url(../img/muffin.jpg)
+
+.item_title-text
+  -webkit-align-self flex-end
+  -ms-flex-item-align end
+  align-self flex-end
+  color inherit
+  display block
+  display -webkit-flex
+  display -ms-flexbox
+  display flex
+  font-size 24px
+  font-weight 300
+  line-height normal
+  overflow hidden
+  -webkit-transform-origin 149px 48px
+  transform-origin 149px 48px
+  margin 0
+
+.item_supporting-text
+  color rgba(0,0,0,.54)
+  font-size 1rem
+  line-height 18px
+  text-align left
+  overflow hidden
+  padding 16px
+  width 90%
+
+.item_actions
+  font-size 16px
+  line-height normal
+  width 100%
+  background-color transparent
+  padding 8px
+  box-sizing border-box
+  &.item-border
+    border-top 1px solid rgba(0,0,0,.1)
+
+
+
+
