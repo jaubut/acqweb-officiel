@@ -1,0 +1,7 @@
+{
+  "name": "Chanvre Quebec   ",
+  "short_name": "CQ Notification",
+  "start_url": "/",
+  "display": "standalone",
+  "gcm_sender_id": "732105230267"
+}
