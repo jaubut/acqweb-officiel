@@ -13,6 +13,15 @@ html(lang="fr" ⚡='')
     meta(property="og:image" content="http://www.chanvrequebec.com/assets/img/navlogo.svg")
     body(topmargin="0px" leftmargin="0px" marginheight="0px" marginwidth="0px")
     script(src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async)
+    script.
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(["init", {
+      appId: "8e6e6913-3fc1-4f84-82ce-60634b21255f",
+      autoRegister: false,
+      notifyButton: {
+      enable: true /* Set to false to hide */
+      }
+      }]);
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js")
     script(src='assets/js/main.js')
     script(src="https://use.fontawesome.com/7c1bfbef86.js")
@@ -24,17 +33,7 @@ html(lang="fr" ⚡='')
     link(rel='stylesheet', href='https://npmcdn.com/flickity@2.0/dist/flickity.css', media='screen')
     link(rel='canonical', href='www.chanvrequebec.com')
   body
-    script.
-      var OneSignal = window.OneSignal || [];
-      OneSignal.push(["init", {
-      appId: "8e6e6913-3fc1-4f84-82ce-60634b21255f",
-      autoRegister: false,
-      notifyButton: {
-      enable: true /* Set to false to hide */
-      }
-      }]);
-
-
+    
     script.
       window.fbAsyncInit = function() {
       FB.init({
