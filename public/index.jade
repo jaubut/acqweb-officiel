@@ -7,6 +7,14 @@ include ../public/_includes/_header
     .container
         .fb-like(data-href='https://www.facebook.com/chanvrequebec/', data-layout='button_count', data-action='like', data-size='large', data-show-faces='true', data-share='true')
 a(name='first')
+.main-wrapper
+        .carousel(data-flickity='{ "autoPlay": true }')
+          .carousel-cell
+            p "Le chanvre est une nécessité pour la santé et la protection du pays" -Thomas Jefferson
+          .carousel-cell
+            p "Profiter de la graine de chanvre et semer la partout" -George Washington
+          .carousel-cell
+            p "Pourquoi exploiter des fôrets ou des mines alors qu'on peut avoir des ressources équivalentes avec la production annuelle des champs de chanvre" -Henry Ford
 .main-wrapper.grey
     .container
         h2 Le chanvre c'est
@@ -28,6 +36,8 @@ a(name='first')
                 a(href='construction')
                     img.promo-crossroad__img(src='assets/img/meilleuregraineenville.png')
                     p Alimentation
+
+include ../public/_includes/_produits
 .main-wrapper
     .container
         h2 Chanvre Québec c'est
@@ -35,22 +45,14 @@ a(name='first')
           | Une association à but non-lucratif fondé par de jeunes visionnaires qui a pour mission d'apporter des solutions saines et durables aux problèmes d'aujourd'hui.
         a(href='equipe')
             button.fill-green Découvrez l'équipe
+include ../public/_includes/_price
 //.main-wrapper.grey
     .container
         h2 Notre mission; <strong>promouvoir le chanvre.</srtong>
         p 
           | <strong>Comment allons-nous faire ?</strong> En étant une référence en matière de chanvre. Nous voulons offrir des produits sains et durables (facile avec le chanvre!) tout en étant innovateur et créatif. Pour y parvenir, nous allons oeuvrer en harmonie avec les compagnies qui se battent corps et âme pour le chanvre. Nous allons les aider à se démarquer! 
     button.btn-green Nos services
-include ../public/_includes/_price
-.main-wrapper.grey
-        .carousel(data-flickity='{ "autoPlay": true }')
-          .carousel-cell
-            p "Le chanvre est une nécessité pour la santé et la protection du pays" -Thomas Jefferson
-          .carousel-cell
-            p "Profiter de la graine de chanvre et semer la partout" -George Washington
-          .carousel-cell
-            p "Pourquoi exploiter des fôrets ou des mines alors qu'on peut avoir des ressources équivalentes avec la production annuelle des champs de chanvre" -Henry Ford
-include ../public/_includes/_produits      
+      
 //include ../public/_includes/_slider
 include ../public/_includes/_footer
 
