@@ -8,7 +8,9 @@
 @import '_carousel'
 @import '_prices'
 @import '_masonry'
-@import '_modal'
+@import '_header'
+@import '_recette'
+@import '_article'
 
 #sample 
 
@@ -28,6 +30,8 @@ html
 /*
 === TYPOGRAPHY
 */
+strong
+    font-weight bold
 
 h1 
 	font-family: Porter, sans-serif;
@@ -44,6 +48,19 @@ h2
         color: #1E2D32;
     &:blanc
         color white
+.h2
+    font-family: "proxima-nova", Helvetica, sans-serif;
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 4px 20px;
+.left
+    float: left;
+.right
+    float right
 
 h3 
 	font-family: "proxima-nova", Helvetica, sans-serif;
@@ -58,6 +75,8 @@ p
 	font-weight: 300;
 	line-height: 1.5;
     color: #1E2D32;
+.p
+    font-size 1rem
     
 .blanc
     color white

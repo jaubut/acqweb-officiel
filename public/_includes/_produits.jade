@@ -1,16 +1,43 @@
 .main-wrapper
     .popular-destinations
-          h2.article Nos produits vedettes
+          .container
+            .h2.right Nos produits vedettes
           .cards-strip
             .cards-strip_in
-             a.produit-card(href='')
-                img.produit-card-img(src='assets/img/jér.jpg')
-             a.produit-card(href='')
-                img.produit-card-img(src='assets/img/etiquette2.0copy.jpeg')
-             a.produit-card(href='')
-                img.produit-card-img(src='assets/img/bonmur.png')
-                .description description
-                .price 15.99$
+             .cont_produit
+                .produit_img_back
+                  img(src='assets/img/jér.jpg', alt='')
+                .cont_icon_right
+                      a(href='#')
+                        i.price 30$
+                .info-recette
+                    .cont_detalles
+                      button.fill-green ajouter
+                      p
+                        | Salut, pour moi chanvre quebec est la place que nous nous sommes créer pour se permettre d'accomplir le beau, le bon.
+             .cont_produit
+                .produit_img_back
+                  img(src='assets/img/bonmur.png', alt='')
+                .cont_icon_right
+                      a(href='#')
+                        i.price 30$
+                .info-recette
+                    .cont_detalles
+                      button.fill-green ajouter
+                      p
+                        | Salut, pour moi chanvre quebec est la place que nous nous sommes créer pour se permettre d'accomplir le beau, le bon.
+             .cont_produit
+                .produit_img_back
+                  img(src='assets/img/etiquette2.0copy.jpeg', alt='')
+                .cont_icon_right
+                      a(href='#')
+                        i.price 30$
+                .produit_detalles
+                      //button.fill-green ajouter
+                      p
+                        | Salut, pour moi chanvre quebec est la place que nous nous sommes créer pour se permettre d'accomplir le beau, le bon.
+    .container
+        p.p Vous pouvez m'agasiner en toute sécurité sur notre site, les transactions sont à 100% gérés et sécurisés par une compagnie situé à Québec, Snipcart. :)
 
 
             

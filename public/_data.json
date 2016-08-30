@@ -16,6 +16,13 @@
         "underline": "Régalez-vous!"
         
         
+    },
+    
+    "alimentation": {
+        "headline": "Alimentation",
+        "underline": "Protéine type C"
+        
+        
     }
 
 }
