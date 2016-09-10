@@ -23,6 +23,12 @@
         "underline": "Protéine type C"
         
         
+    },
+    
+    "404": {
+        "headline": "404",
+        "underline": "vous n'êtes pas si perdu.."
+        
+        
     }
-
 }

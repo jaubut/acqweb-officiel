@@ -2,6 +2,7 @@
   "globals": {
       "title": "Chanvre Québec",
       "name": "Jeremie Aubut",
-      "uri": "http://chanvrequebec.com"
+      "uri": "http://chanvrequebec.com",
+      "snipcartApiKey": "MDc1MjE3MzQtMWI0Ni00NDE2LTgxOWUtYzhlN2ZmYTM0OTdkNjM2MDA4NDk2Njk1MzE1MDU0"
   }
 }
