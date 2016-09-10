@@ -1,6 +1,6 @@
 # Global settings applied to the whole site.
 [build]
-  base    = "master"
+  base    = "public"
   publish = "www/"
   command = "harp compile"
 
