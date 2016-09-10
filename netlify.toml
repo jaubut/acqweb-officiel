@@ -1,0 +1,12 @@
+# Global settings applied to the whole site.
+[build]
+  base    = "site"
+  publish = "public"
+  command = "harp compile"
+
+# Production context: All deploys to the main
+# repository branch will inherit these settings.
+[context.production]
+  command = "harp compile"
+  [context.production.environment]
+    ACCESS_TOKEN = "a4f0b680-8faa-417b-b7b6-32225131767f"
