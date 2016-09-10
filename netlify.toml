@@ -1,7 +1,7 @@
 # Global settings applied to the whole site.
 [build]
   base    = "master"
-  publish = "public"
+  publish = "www/"
   command = "harp compile"
 
 # Production context: All deploys to the main
