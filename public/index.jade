@@ -7,7 +7,7 @@ include ../public/_includes/_header
     .container
         .fb-like(data-href='https://www.facebook.com/chanvrequebec/', data-layout='button_count', data-action='like', data-size='large', data-show-faces='true', data-share='true')
         //p.p Aussi, au lieu d'une lettre de nouvelle, abonnez-vous à nos notifications avec le bouton rouge juste ici en bas :)
-    hr
+   // hr
     .carousel(data-flickity='{ "autoPlay": true }')
       .carousel-cell
         p "Le chanvre est une nécessité pour la santé et la protection du pays" 
@@ -21,6 +21,14 @@ include ../public/_includes/_header
         p "Pourquoi exploiter des fôrets ou des mines alors qu'on peut avoir des ressources équivalentes avec la production annuelle des champs de chanvre"
         br 
         p <strong>-Henry Ford</strong>
+.main-wrapper
+    .container
+        .h2.left Chanvre Québec
+    .container
+        p.p
+          | Une association à but non-lucratif fondé par de jeunes visionnaires qui a pour mission d'apporter des solutions saines et durables aux problèmes d'aujourd'hui.
+        a(href='equipe')
+            button.fill-green Découvrez l'équipe
 a(name='first')
 .main-wrapper.grey
     .container
@@ -45,15 +53,7 @@ a(name='first')
                     p Alimentation
 
 include ../public/_includes/_produits
-.main-wrapper
-    .container
-        .h2.left Chanvre Québec c'est
-    .container
-        p.p
-          | Une association à but non-lucratif fondé par de jeunes visionnaires qui a pour mission d'apporter des solutions saines et durables aux problèmes d'aujourd'hui.
-        a(href='equipe')
-            button.fill-green Découvrez l'équipe
-include ../public/_includes/_price
+//include ../public/_includes/_price
 .main-wrapper.grey
     .container
         h2 Notre mission; <strong>promouvoir le chanvre.</srtong>

@@ -5,7 +5,7 @@
     },
 
     "equipe": {
-        "headline": "L'equipe",
+        "headline": "Le collectif",
         "underline": "Notre force"
         
         
@@ -31,9 +31,9 @@
         
      },
     
-    "Habitation": {
+    "construction": {
         "headline": "Habitation",
-        "underline": "Mieux adapté à nos besoins" 
+        "underline": "Une maison saine et durable" 
         
     }
 }
