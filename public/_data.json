@@ -20,7 +20,7 @@
     
     "alimentation": {
         "headline": "Alimentation",
-        "underline": "Protéine type C"
+        "underline": "Le super aliment"
         
         
     },
@@ -29,6 +29,11 @@
         "headline": "404",
         "underline": "vous n'êtes pas si perdu.."
         
+     },
+    
+    "Habitation": {
+        "headline": "Habitation",
+        "underline": "Mieux adapté à nos besoins" 
         
     }
 }
