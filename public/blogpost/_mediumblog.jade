@@ -1,0 +1,10 @@
+each medium, slug in public.blogpost._data
+    .cont_produit
+        .produit_img_back
+          img(src=medium.thumbnail_url)
+        .cont_icon_right
+              a(href=medium.url)
+                i.price=medium.title
+        .info-recette
+            .cont_detalles
+              p=medium.description
