@@ -18,16 +18,77 @@
     
     "medium2": {
         "provider_url": "https://blog.chanvrequebec.com", 
-        "description": "Le super aliment dans toutes vos recettes D'abord, on utilise la farine de chanvre dans les recettes (g\u00e2teaux, p\u00e2te \u00e0 biscuits, pains, cr\u00eapes, etc.) ou pour \u00e9paissir les soupes afin de b\u00e9n\u00e9ficier d'une forte contribution en vitamines, en gras essentiels, en prot\u00e9ines et en fibres pour un r\u00e9gal nutritif!", 
-        "title": "Voilà la farine de chanvre ?", 
-        "url": "https://blog.chanvrequebec.com/pourquoi-la-farine-de-chanvre-f523119e8ff9?gi=d26503e1019c", 
+        "description": "Le chanvre est la plante qui poss\u00e8de le plus grand potentiel industriel afin d'offrir des solutions saines et durables aux d\u00e9fis d'aujourd'hui. Nous avons regroup\u00e9 pour vous ce que nous croyons \u00eatre les sept applications qui sont les plus susceptibles de solidifier nos liens avec la nature et bonifier nos conditions de vie \u00e0 tous et chacun.", 
+        "title": "7 FA\u00c7ONS DE CHANGER LE MONDE POUR LE MIEUX", 
+        "url": "https://blog.chanvrequebec.com/7-fa%C3%A7ons-de-changer-le-monde-pour-le-mieux-2728cecc15fd?gi=698c97ff5e7d", 
         "thumbnail_width": 1200, 
-        "thumbnail_url": "https://cdn-images-1.medium.com/max/1200/1*Qrhypp3panFYzqVeBGV8_w.jpeg", 
+        "thumbnail_url": "https://d262ilb51hltx0.cloudfront.net/max/1200/1*_9SDjff_XSe6Kl_LSJrsKg.jpeg", 
         "author_name": "Darko Popovi\u0107", 
         "version": "1.0", 
         "provider_name": "Chanvre Qu\u00e9bec", 
         "type": "link", 
-        "thumbnail_height": 811, 
+        "thumbnail_height": 800, 
+        "author_url": "https://blog.chanvrequebec.com/@darkopopovi"
+},
+    
+    "medium3": {  
+        "provider_url": "https://blog.chanvrequebec.com", 
+        "description": "Pourquoi le chanvre est il un super aliment ? Vous pouvez en \u00eatre certains, le chanvre m\u00e9rite bel et bien une telle \u00e9tiquette. Le chanvre est l'aliment le plus complet qui soit. On le retrouve sous diff\u00e9rentes formes.", 
+        "title": "LE SUPER ALIMENT!", 
+        "url": "https://blog.chanvrequebec.com/le-super-aliment-53bd29e2a6f5?gi=23a8e1e6b47b", 
+        "thumbnail_width": 1200, 
+        "thumbnail_url": "https://cdn-images-1.medium.com/max/1200/1*tldvZd_ihphtgoV3RendOQ.jpeg", 
+        "author_name": "Darko Popovi\u0107", 
+        "version": "1.0", 
+        "provider_name": "Chanvre Qu\u00e9bec", 
+        "type": "link", 
+        "thumbnail_height": 800, 
+        "author_url": "https://blog.chanvrequebec.com/@darkopopovi"
+
+    },
+    
+    "medium4": {
+        "provider_url": "https://blog.chanvrequebec.com", 
+        "description": "C'est bien connu, le prix des maisons conventionnelles est en croissance depuis des ann\u00e9es. Peut-on en dire autant de leur qualit\u00e9 ? Chanvre Qu\u00e9bec d\u00e9finit la qualit\u00e9 d'un produit ou d'un service par son aptitude \u00e0 \u00eatre adapt\u00e9 aux besoins r\u00e9els de l'utilisateur final.", 
+        "title": "Votre maison de r\u00eave est en chanvre", 
+        "url": "https://blog.chanvrequebec.com/votre-maison-de-r%C3%AAve-est-en-chanvre-a9cdadb122e3?gi=49f6b545273f", 
+        "thumbnail_width": 1200, 
+        "thumbnail_url": "https://cdn-images-1.medium.com/max/1200/1*URxLRIuXxXHI4f2fYHUVxA.png", 
+        "author_name": "Darko Popovi\u0107", 
+        "version": "1.0", 
+        "provider_name": "Chanvre Qu\u00e9bec", 
+        "type": "link", 
+        "thumbnail_height": 736, 
+        "author_url": "https://blog.chanvrequebec.com/@darkopopovi"
+    },
+    
+    "medium5": {
+        "provider_url": "https://blog.chanvrequebec.com", 
+        "description": "le chanvre est une plante merveilleuse qui a le potentiel de changer notre monde et notre mode de vie \u00e0 tous. La m\u00e9connaissance du chanvre et sa diabolisation par le pass\u00e9 constituent encore les plus grands obstacles \u00e0 son d\u00e9veloppement industriel.", 
+        "title": "CHANVRE VS MARIJUANA", 
+        "url": "https://blog.chanvrequebec.com/chanvre-vs-marijuana-2067a5a7fc52?gi=c546ccf2873", 
+        "thumbnail_width": 618, 
+        "thumbnail_url": "https://cdn-images-1.medium.com/max/1200/1*x1q6toDP7kXuOBCKqDwETw.jpeg", 
+        "author_name": "Darko Popovi\u0107", 
+        "version": "1.0", 
+        "provider_name": "Chanvre Qu\u00e9bec", 
+        "type": "link", 
+        "thumbnail_height": 335, 
+        "author_url": "https://blog.chanvrequebec.com/@darkopopovi"
+    },
+    
+    "medium6": {
+        "provider_url": "https://blog.chanvrequebec.com", 
+        "description": "Pourquoi avons nous \u00e9t\u00e9 priv\u00e9 de la plus belle solution \u00e9cologique qui soit durant toutes ces ann\u00e9es? Si le chanvre n'est pas utilis\u00e9 abondamment dans notre soci\u00e9t\u00e9 c'est parce que sa culture commerciale a \u00e9t\u00e9 l\u00e9galis\u00e9e au Canada qu'en 1998.", 
+        "title": "Le chanvre en Am\u00e9rique du Nord : un roman \u00e0 l'eau de rose!", 
+        "url": "https://blog.chanvrequebec.com/le-chanvre-en-am%C3%A9rique-du-nord-un-roman-%C3%A0-leau-de-rose-41f77e197011?gi=3979cfb1f97a", 
+        "thumbnail_width": 1200, 
+        "thumbnail_url": "https://cdn-images-1.medium.com/max/1200/1*f2Yu-pRSSUpIkDE0FeGcdw.jpeg", 
+        "author_name": "Darko Popovi\u0107", 
+        "version": "1.0", 
+        "provider_name": "Chanvre Qu\u00e9bec", 
+        "type": "link", 
+        "thumbnail_height": 793, 
         "author_url": "https://blog.chanvrequebec.com/@darkopopovi"
     }
 }

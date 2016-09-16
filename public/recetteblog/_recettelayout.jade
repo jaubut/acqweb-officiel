@@ -1,0 +1,19 @@
+each medium, slug in public.recetteblog._data
+    .cont_photo
+        .cont_img_back
+          img(src=medium.thumbnail_url)
+        .cont_icon_right
+              a(href=medium.url)
+                i.material-icons 
+        .info-recette
+            .sub_mins
+              h3 50
+              span MINS
+            .sub_mins
+              h3 4
+              span SERVINGS
+            .cont_detalles
+              h4=medium.title
+              p=medium.description
+                
+            
