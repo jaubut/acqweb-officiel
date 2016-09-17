@@ -1,6 +1,5 @@
 .outer-menu
   input.checkbox-toggle(type='checkbox')
-  a.snipcart-checkout(href='#')
   .hamburger
     div
   .menu
@@ -8,29 +7,34 @@
       div
         ul
           li
-            a(href='#') Notre équipe
-          li
-            a(href='#') Produits
+            a(href='equipe') Notre équipe
+          //li
+            a(href='produits') Produits
         ul
           li
-            a(href='#') Habitation
+            a(href='construction') Habitation
           li
-            a(href='#') Alimentation
+            a(href='alimentation') Alimentation
           li
-            a(href='#') Textile
+            a(href='vêtement') Textile
           li
-            a(href='#') Soins Corporels  
+            a(href='recette') Recette  
         ul
           li
             a(href='https://blog.chanvrequebec.com') Blog
           li
-            a(href='http://faq.chanvrequebec.com') Faq            
+            a(href='http://faq.chanvrequebec.com') Faq       
 .main-wrapper
-        i.fa.fa-shopping-basket(aria-hidden='true')
+        i.fa.fa-shopping-basket.snipcart-checkout(href="#", aria-hidden='true')
+            .snipcart-summary(style='display: none')
+                span.snipcart-total-price 0
+                   
+                
         .header-section
           // START SVG
           .bridge-svg
-           img(src='assets/img/navlogo.svg')
+              a(href='index')
+               img(src='assets/img/navlogo.svg')
           .title
             h1=(headline)   
             h2=(underline)
