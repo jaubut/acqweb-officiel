@@ -38,5 +38,18 @@
         "provider_name": "Chanvre Qu\u00e9bec", 
         "type": "link", 
         "thumbnail_height": 852
+    },
+    
+    "medium4": {    
+        "provider_url": "https://blog.chanvrequebec.com", 
+        "description": "Le but de bien mang\u00e9 n'est pas simplement de consommer un bon aliment mais d'\u00e9liminer les mauvais que l'on m\u00e9lange avec celui-ci.", 
+        "title": "Muffin automnal courge et chanvre", 
+        "url": "https://blog.chanvrequebec.com/muffin-automnal-courge-et-chanvre-29c3267119d9?gi=4bbb9347007f", 
+        "thumbnail_width": 1200, 
+        "thumbnail_url": "https://cdn-images-1.medium.com/max/1200/1*yHQRqbMl7VRVrt-b5CKkMg.jpeg", 
+        "version": "1.0", 
+        "provider_name": "Chanvre Qu\u00e9bec", 
+        "type": "link", 
+        "thumbnail_height": 679
     }
 }
