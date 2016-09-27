@@ -1,25 +1,25 @@
 {
     "index": {
-        "headline": "CHANVRE QUEBEC",
+        "headline": "CHANVRE QUÉBEC",
         "underline": "La référence"
     },
 
     "equipe": {
-        "headline": "Le collectif",
+        "headline": "L'ÉQUIPE",
         "underline": "Notre force"
         
         
     },
     
     "recette": {
-        "headline": "Recette",
+        "headline": "RECETTES",
         "underline": "Régalez-vous!"
         
         
     },
     
     "alimentation": {
-        "headline": "Alimentation",
+        "headline": "ALIMENTATION",
         "underline": "Le super aliment"
         
         
@@ -32,7 +32,7 @@
      },
     
     "construction": {
-        "headline": "Habitation",
+        "headline": "HABITATION",
         "underline": "Une maison saine et durable" 
         
     },
