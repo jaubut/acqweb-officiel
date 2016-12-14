@@ -7,10 +7,6 @@
                 include ../public/soinscorps/_soinscorps
     .container
         .row.center
-            for seqoia, slug in public.seqoia._data
+            for numero, slug in public.seqoia._data
                 include ../public/seqoia/_seqoia
-    .container
-        .row.center
-            for produits, slug in public.produits._data
-                include ../public/produits/_produits
     include ../public/includes/_footer

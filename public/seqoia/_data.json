@@ -34,23 +34,5 @@
         "url": "/",
         "price": "30.00",
         "link": "seqoia/numero_s"
-    },
-    "item_s": {
-        "headline": "Le S",
-        "underline": "Le classique incontournable",
-        "thirdline": "voyez l'histoire",
-        "source": "/assets/img/navlogo.svg",
-        "sourcefooter": "/assets/img/footerlogo.svg",
-        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
-        "titre": "Un tissus 55% chanvre!",
-        "texte": "Le s est simple et discret. Il fait peut aussi bien faire pour un casual, sport que stylé.",
-        "textcolor": "color: black",
-        "name": "Le S",
-        "id": "2",
-        "image": "https://storage.googleapis.com/chanvrequebecphoto/Champagne45.jpg",
-        "description": "Le 's', un chandail unisex classique.",
-        "url": "/",
-        "price": "30.00",
-        "link": "seqoia/numero_s"
     }
 }
