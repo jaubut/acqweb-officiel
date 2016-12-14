@@ -1,35 +1,16 @@
+app.locals.product = require('../product.json');
+
+$(document).ready(function() {
+        $(".convert-emoji").each(function() {
+            var original = $(this).html();
+            // use .shortnameToImage if only converting shortnames (for slightly better performance)
+            var converted = emojione.toImage(original);
+            $(this).html(converted);
+        });
+    });
+
+$('#my-size').change(function() {
+    $('#my-button').data('item-custom2-value', $(this).val());
+});
+
 Snipcart.api.configure('show_continue_shopping', true);
-
-Snipcart.subscribe('cart.ready', function (cart) {
-  if (cart != null && cart.items && cart.items.length > 0) {
-    $('.snipcart-summary').show();
-  }
-});
-
-Snipcart.subscribe('item.added', function (item) {
-  $('.snipcart-summary').show();
-});
-
-Snipcart.subscribe('item.removed', function (item, items) {
-  cart = Snipcart.api.cart.get();
-  
-  if (cart.items.length <= 0) {
-    $('.snipcart-summary').hide();
-  }
-});
-
-(function(){
-  console.log("harp + surge");
-})();
-
-jQuery(document).ready(function($) {
-			$('.my-slider').unslider();
-		});
-
-$('.grid').masonry({
-  itemSelector: '.grid-item',
-  columnWidth: '.grid-sizer',
-  percentPosition: true
-});
-
-    

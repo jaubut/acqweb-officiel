@@ -1,66 +1,34 @@
-include ../public/_includes/_header
-.main-wrapper.green2
+include ../public/includes/_header
+#photo
+    .photo-container
+            .photo(style='background-image: url(https://storage.googleapis.com/chanvrequebecphoto/caro_lafeuille.jpeg)')
+            .photo(style='background-image: url(https://storage.googleapis.com/chanvrequebecphoto/team.jpeg)')
+            .photo(style='background-image: url(https://storage.googleapis.com/chanvrequebecphoto/caro_lafeuille.jpeg)')
+include ../public/includes/_mission
+include ../public/includes/_chanvre
+include ../public/includes/_artistesliste
+#soinscorpo.center(style="background-color: #F9F9F9")
     .container
-        h2.blanc Suivez-nous sur Facebook
-        p.blanc Faites partie, vous aussi, de notre communauté!
-        a.fb-messengermessageus.talk(messenger_app_id='1605996379729796', page_id='1541184722867648', color='blue', size='xlarge')
+        .row
+            .col-12.center
+                h2 Nos produits de chanvre pour vous :)
+                p Des artisans consacrés et pationnés!
+                a(href="boutique")
+                    button.btn-secondary Découvrez nos produits
+#produits
     .container
-        .fb-like(data-href='https://www.facebook.com/chanvrequebec/', data-layout='button_count', data-action='like', data-size='large', data-show-faces='true', data-share='true')
-        //p.p Aussi, au lieu d'une lettre de nouvelle, abonnez-vous à nos notifications avec le bouton rouge juste ici en bas :)
-   // hr
-    .carousel(data-flickity='{ "autoPlay": true }')
-      .carousel-cell
-        p "Le chanvre est une nécessité pour la santé et la protection du pays" 
-        br 
-        p <strong>-Thomas Jefferson</strong>
-      .carousel-cell
-        p "Profiter de la graine de chanvre et semer la partout"
-        br
-        p <strong>-George Washington</strong>
-      .carousel-cell
-        p "Pourquoi exploiter des fôrets ou des mines alors qu'on peut avoir des ressources équivalentes avec la production annuelle des champs de chanvre"
-        br 
-        p <strong>-Henry Ford</strong>
-.main-wrapper
-    .container
-        .h2 Le chanvre c'est
-        p 
-          | <strong>50 000</strong> produits différents bons pour nous et notre environnement! C'est une <strong>réponse intelligente</strong> et <strong>adaptée</strong> à nos besoins modernes.
-    .promo-crossroad
-        dl.promo-crossroad__item
-            dt
-                a(href='construction')
-                    img.promo-crossroad__img(src='assets/img/bonmur.png', alt='maison en chanvre et mur en chanvre. isolation en chanvre')
-                    p Habitation
-        dl.promo-crossroad__item
-            dt
-                a(href='textile')
-                    img.promo-crossroad__img(src='assets/img/textile.png', alt='textile de chanvre. tissus en chanvre')
-                    p Textile
-        dl.promo-crossroad__item
-            dt
-                a(href='alimentation')
-                    img.promo-crossroad__img(src='assets/img/meilleuregraineenville.png', alt='graines de chanvre. coeur de chanvre')
-                    p Alimentation
-.main-wrapper.grey
-    .container
-        .h2.left Chanvre Québec
-    .container
-        p.p
-          | Une association à but non-lucratif, fondée par de jeunes visionnaires, qui a pour mission d'apporter des solutions saines et durables aux problèmes d'aujourd'hui.
-        a(href='equipe')
-            button.fill-green Découvrez l'équipe
-a(name='first')
-include ../public/_includes/_produits
-//include ../public/_includes/_price
-.main-wrapper.grey
-    .container
-        h2 Notre mission; <strong>promouvoir le chanvre.</srtong>
-        p.p 
-          | <strong>Comment allons-nous faire ?</strong> En étant une référence en matière de chanvre. Nous voulons offrir des produits sains et durables (facile avec le chanvre!) tout en étant innovateur et créatif. Pour y parvenir, nous allons oeuvrer en harmonie avec les compagnies qui se battent corps et âme pour le chanvre. Nous allons les aider à se démarquer! 
-    button.btn-green Nos services
-      
-include ../public/_includes/_mediumpost
-include ../public/_includes/_footer
-
-
+            .row
+                .center
+                    //- var lafeuille = public.lafeuille._data[public.lafeuille._contents[0].toString().replace('.html', '')]  
+                          include ../public/lafeuille/_lafeuille
+                    //- var numero = public.seqoia._data[public.seqoia._contents[0].toString().replace('.html','')] 
+                          include ../public/seqoia/_seqoia
+                    //- var keys = Object.keys(public.seqoia._data);
+                    //- for(var i = 0; i < Math.min(1,keys.length); i++) {
+                    //li: a(href="/seqoia/#{ keys[i] }.html")= public.seqoia._data[keys[i]].headline
+                    //- }
+                    //include ../public/seqoia/_seqoia
+                    //for numero, slug in public.seqoia._data
+                        include ../public/seqoia/_seqoia
+                    p#demo
+include ../public/includes/_footer

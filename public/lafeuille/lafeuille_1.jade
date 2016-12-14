@@ -1,0 +1,8 @@
+#produitsfull
+    include ../includes/_header
+    include ../includes/_description
+    .container
+            .row.center
+                - var lafeuille = public.lafeuille._data[public.lafeuille._contents[0].toString().replace('.html', '')]  
+                    include _seqoiafull
+    include ../includes/_footer

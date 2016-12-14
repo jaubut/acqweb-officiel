@@ -1,245 +1,177 @@
-@import '_media'
-@import '_anim'
-@import '_grid'
-@import '_slider'
-@import '_item'
-@import '_button'
-@import '_produits-cards'
-@import '_carousel'
-@import '_prices'
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@import '_cq'
 @import '_header'
-@import '_recette'
-@import '_article'
-
-#sample 
-
-
-html 
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  
+@import '_mission'
+@import '_chanvre'
+@import '_fontawesome'
+@import '_soinscorporels'
+@import '_produits'
+@import '_artiste'
+html,
 body
-    margin 0
+  height 100%
+  width 100%
+  margin 0
+  padding 0
+  left 0
+  top 0
+  font-size 100%
 
+*
+  font-family 'Lato', Helvetica, sans-serif
+  color #333447
+  line-height 1.5
 
-*, *:before, *:after 
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
+h1
+  font-size 2.5rem
 
+h2
+  font-size 2rem
 
-/*
-=== TYPOGRAPHY
-*/
-strong
-    font-weight bold
+h3
+  font-size 1.375rem
 
-h1 
-	font-family: Helvetica, sans-serif;
-	color: #1E2D32;
-    font-size 3rem
-    font-weight: 400;
-    padding-top 35px 
-    padding-bottom 10px
+h4
+  font-size 1.125rem
 
-h2 
-	font-family: "proxima-nova", Helvetica, sans-serif;
-	font-size: 1.5rem;
-	font-weight: 200;
-	line-height: 1.2;
-	&:noir
-        color: #1E2D32;
-    &:blanc
-        color white
-.h2
-    font-family: "proxima-nova", Helvetica, sans-serif;
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    font-size: 20px;
-    font-weight: normal;
-    text-transform: uppercase;
-    padding: 4px 20px;
+h5
+  font-size 1rem
+
+h6
+  font-size 0.875rem
+
+p
+  font-size 1.125rem
+  font-weight 200
+  line-height 1.8
+
+.font-light
+  font-weight 300
+
+.font-regular
+  font-weight 400
+
+.font-heavy
+  font-weight 700
+
 .left
-    float: left;
+  text-align left
+
 .right
-    float right
+  text-align right
 
-h3 
-	font-family: "proxima-nova", Helvetica, sans-serif;
-	font-size: 1rem;
-	font-weight: 300;
-	line-height: 0.6;
-	color: #FFF;
-
-p 
-	font-family: "proxima-nova", Helvetica, sans-serif;
-	font-size: 1.5rem;
-	font-weight: 300;
-	line-height: 1.5;
-    color: #1E2D32;
-.p
-    font-size 1rem
-    
-.blanc
-    color white
-
-a 
-	text-decoration: none;
-    text-align center
-
-/*
-=== BODY STYLES
-*/
-
+.center
+  text-align center
+  margin-left auto
+  margin-right auto
 
 .justify
-    text-align justify
+  text-align justify
 
-.infinite
-    width auto
-    height 100px
-    align-content flex-end
-    border-radius 100%
-    
+.container
+  width 90%
+  margin-left auto
+  margin-right auto
 
-.header-section
-    max-width 100vw
-	position inherit
+.row
+  position relative
+  width 100%
+  [class^="col"]
+    float left
+    margin 0.5rem 2%
+    min-height 0.125rem
+  &::after
+    content ""
+    display table
+    clear both
 
-.bridge-svg 
-	position: relative;
-	margin: 10% auto 0;
-	width: 100px;
-	-webkit-animation: title-fall 0.75s ease;
-	-moz-animation: title-fall 0.75s ease;
-	animation: title-fall 0.75s ease;
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12
+  width 96%
 
-.footer-bridge 
-	position: relative;
-	width: 133px;
-	margin: 0 auto;	
-	padding: 50px 0;
-    text-align center
+.col-1-sm
+  width 4.33%
 
+.col-2-sm
+  width 12.66%
 
-.title 
-	margin-top: -30px;
-	text-align: center;
-    margin-bottom 100px
-    padding 0 5
+.col-3-sm
+  width 21%
 
-.title h1
-    
-	-webkit-animation: title-fall 0.5s ease;
-	-moz-animation: title-fall 0.5s ease;
-	animation: title-fall 0.5s ease;
+.col-4-sm
+  width 29.33%
 
-.title h2 
-	margin-top: -30px;
-	text-transform: uppercase;
-	letter-spacing: 1.1rem;
-	-webkit-animation: title-rise 0.75s ease;
-	-moz-animation: title-rise 0.75s ease;
-	animation: title-rise 0.75s ease;
+.col-5-sm
+  width 37.66%
 
-.start-quiz 
-	text-align: center;
-	cursor: pointer;
-	min-width: 260px;
-	margin: 100px auto 0;
-	-webkit-animation: title-rise 0.9s ease;
-	-moz-animation: title-rise 0.9s ease;
-	animation: title-rise 0.9s ease;
+.col-6-sm
+  width 46%
 
-.arrow 
-	-webkit-animation: bounce 1.4s ease infinite;
-	-moz-animation: bounce 1.4s ease infinite;
-	animation: bounce 1.4s ease infinite;
+.col-7-sm
+  width 54.33%
 
-span 
-	display: inline-block;
-    
-.equipe
-    width 180px
-    height auto
-    border 4px solid black
-    border-radius 25px
-dt img
-    max-width 100%
-    border-radius 25px 25px 0 0
+.col-8-sm
+  width 62.66%
 
-footer 
-	position: relative;
-	background-image linear-gradient(#0092B3 0%, #066682 100%)
-	width: 100%;
+.col-9-sm
+  width 71%
 
-.footer-container 
-	width 90%
-	margin: 0 auto;
-	padding-bottom: 50px;
+.col-10-sm
+  width 79.33%
 
-footer .bridge-svg 
-	padding: 80px 0;
+.col-11-sm
+  width 87.66%
 
-.line 
-	position: relative;
-	background: white;
-	width: 50px;
-	height:	3px;
+.col-12-sm
+  width 96%
 
-footer ul
-footer li 
-	margin: 0;
-	padding: 0;
-    list-style-type none
-    
+.hidden-sm
+  display none
 
-footer li 
-	height: 30px;
+@media only screen and (min-width: 33.75em)
+  .container
+    width 80%
 
-footer a 
-	color: #fff;
-	transition: all 0.3s ease;
+@media only screen and (min-width: 45em)
+  .col-1
+    width 4.33%
+  .col-2
+    width 12.66%
+  .col-3
+    width 21%
+  .col-4
+    width 29.33%
+  .col-5
+    width 37.66%
+  .col-6
+    width 46%
+  .col-7
+    width 54.33%
+  .col-8
+    width 62.66%
+  .col-9
+    width 71%
+  .col-10
+    width 79.33%
+  .col-11
+    width 87.66%
+  .col-12
+    width 96%
+  .hidden-sm
+    display block
 
-.footer-link,
-.arrow-right 
-	display: inline-block;
+@media only screen and (min-width: 60em)
+  .container
+    width 75%
+    max-width 60rem
 
-.arrow-right 
-	position: relative;
-	top: 1px;
-	margin-left: 4px;
-	opacity: 0;
-	transition: all 0.3s ease;
-
-footer a:hover .arrow-right 
-	opacity: 1;
-
-.button
-    position static
-    text-align right 
-
-.fb-like
-    margin-bottom 20px
-hr
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid white;
-    width 50%
-.fa-shopping-basket
-    position fixed
-    right 45px
-    top 45px
-    color gainsboro
-    cursor pointer
-.snipcart-total-price 
-  background-color #fa3e3e
-  border-radius 2px
-  color white
-  padding 1px 3px
-  margin-top 3px
-  font-size 12px
-    
