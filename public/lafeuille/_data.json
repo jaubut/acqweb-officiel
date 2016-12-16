@@ -1,38 +1,20 @@
 {
-    "lafeuille_1": {
-        "headline": "Numero 5",
-        "underline": "Le street wear intemporel",
+    "decouverte": {
+        "headline": "Trousse Découverte",
+        "underline": "Les meilleurs choisit pour vous !",
         "thirdline": "voyez l'histoire",
         "source": "/assets/img/navlogo.svg",
         "sourcefooter": "/assets/img/footerlogo.svg",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
-        "titre": "Un tissus 55% chanvre!",
-        "texte": "L'histoire derrière le numéro 5 est le fait d'avoir 5 jours dans la semaine où si tu veux, ton chandail de chanvre peut te garder sans odeur grâce à ses caractéristiques anti-microbiens.",
+        "titre": "La trousse découverte",
+        "texte": "Les trousses sont parfaites pour essayer plusieurs produits à moindre coût! Dans le Découverte, vous avez un baume à lèvre, un lait solaire, une crème anti-ride et un huile Chanvre Moi !",
         "textcolor": "color: black",
-        "name": "Numero 5",
+        "name": "Trousse découverte",
         "id": "1",
-        "image": "https://storage.googleapis.com/chanvrequebecphoto/manu_numero_5.jpg",
-        "description": "Le numéro 5, un chandail unisex stylé.",
+        "image": "https://storage.googleapis.com/chanvrequebecphoto/bundle(decouverte)1.jpg",
+        "description": "La trousse Découverte, les meilleurs choisit pour vous !",
         "url": "/",
-        "price": "30.00",
-        "link": "seqoia/numero_5"
-    },
-    "lafeuille_2": {
-        "headline": "Le S",
-        "underline": "Le classique incontournable",
-        "thirdline": "voyez l'histoire",
-        "source": "/assets/img/navlogo.svg",
-        "sourcefooter": "/assets/img/footerlogo.svg",
-        "headerstyle": "background-image: linear-gradient(white, #F3F3F3)",
-        "titre": "Un tissus 55% chanvre!",
-        "texte": "Le s est simple et discret. Il fait peut aussi bien faire pour un casual, sport que stylé.",
-        "textcolor": "color: black",
-        "name": "Le S",
-        "id": "2",
-        "image": "https://storage.googleapis.com/chanvrequebecphoto/Champagne45.jpg",
-        "description": "Le 's', un chandail unisex classique.",
-        "url": "/",
-        "price": "30.00",
-        "link": "seqoia/numero_s"
+        "price": "54.00",
+        "link": "lafeuille/decouverte"
     }
 }

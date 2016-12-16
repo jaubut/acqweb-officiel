@@ -1,9 +1,6 @@
 include ../public/includes/_header
 #photo
-    .photo-container
-            .photo(style='background-image: url(https://storage.googleapis.com/chanvrequebecphoto/caro_lafeuille.jpeg)')
-            .photo(style='background-image: url(https://storage.googleapis.com/chanvrequebecphoto/team.jpeg)')
-            .photo(style='background-image: url(https://storage.googleapis.com/chanvrequebecphoto/caro_lafeuille.jpeg)')
+    #instafeed
 include ../public/includes/_mission
 include ../public/includes/_chanvre
 include ../public/includes/_artistesliste
@@ -17,17 +14,11 @@ include ../public/includes/_artistesliste
                     button.btn-secondary Découvrez nos produits
 #produits
     .container
-            .row
-                .center
-                    //- var lafeuille = public.lafeuille._data[public.lafeuille._contents[0].toString().replace('.html', '')]  
+            .row.center
+                    - var feuille = public.lafeuille._data[public.lafeuille._contents[0].toString().replace('.html', '')]  
                           include ../public/lafeuille/_lafeuille
-                    //- var numero = public.seqoia._data[public.seqoia._contents[0].toString().replace('.html','')] 
+                    .col-4.hidden
+                    - var numero = public.seqoia._data[public.seqoia._contents[0].toString().replace('.html','')] 
                           include ../public/seqoia/_seqoia
-                    //- var keys = Object.keys(public.seqoia._data);
-                    //- for(var i = 0; i < Math.min(1,keys.length); i++) {
-                    //li: a(href="/seqoia/#{ keys[i] }.html")= public.seqoia._data[keys[i]].headline
-                    //- }
-                    //include ../public/seqoia/_seqoia
-                    //for numero, slug in public.seqoia._data
-                        include ../public/seqoia/_seqoia
+                    
 include ../public/includes/_footer

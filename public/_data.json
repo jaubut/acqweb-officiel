@@ -2,7 +2,7 @@
     "index": {
         "headline": "Chanvre Québec, la référence.",
         "metadescription": "Chanvre Québec est un obln qui vous offre une référence en la matière. Du contenu exclusif et des produits d'ici de qualité!",
-        "underline": "Québécois, bon et beau.",
+        "underline": "Québécois, beau et bon.",
         "thirdline": "La maps",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
@@ -53,13 +53,13 @@
     },
     "boutique": {
         "headline": "Boutique",
-        "underline": "Pour une peau nourrie",
+        "underline": "Des produits beaux et bons.",
         "thirdline": "Les idées cadeaux",
         "source": "assets/img/navlogo.svg",
         "sourcefooter": "assets/img/footerlogo.svg",
-        "titre": "full omega",
-        "texte": "encore plus omega",
-        "artistes": "lafeuilleverte",
+        "titre": "Tous nos produits de chanvre, pour vous !",
+        "texte": "L'une des parties les plus importantes du projet Chanvre Québec est de promouvoir les artisans d'ici qui travaillent avec le chanvre. C'est une joie de pouvoir leur offrir une vitrine à travers le site :). ",
+        "artistes": "/",
         "headerstyle": "background-image: linear-gradient(white, #F3F3F3)"
     }
 }
