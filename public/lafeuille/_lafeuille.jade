@@ -2,16 +2,10 @@
     a(href= feuille.link)
         img(src= feuille.image)
     p= feuille.description
-    select#my-size
-          option Small
-          option Medium
-          option Large
     button#my-button.btn-secondary.snipcart-add-item(
     data-item-id= feuille.id, 
     data-item-name= feuille.name, 
     data-item-price= feuille.price, 
     data-item-weight= feuille.weight, 
     data-item-url= feuille.url, 
-    data-item-custom2-name='Size', 
-    data-item-custom2-options='Small|Medium|Large',
     data-item-description= feuille.description) Ajouter pour #{feuille.price}$
