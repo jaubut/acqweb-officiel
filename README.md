@@ -5,4 +5,4 @@ Ce site est créer avec la plateforme harp.js.
 
 Il comprend des fichiers pug(html), stylus(css) et js.
 
-Il est hoster sur surge.sh
+Il est hoster sur netlify.
